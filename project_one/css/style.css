@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #ffffff;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+.logo{
+    padding-left: 20px;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1b0777;
+}
+.logo a:hover{
+    color: #889c15;
+}
+.logo sup{
+    color: #f05f0b;
+    font-weight: 600;
+    font-size: 25px;
+}
+.logo sup:hover{
+    color: #1b0777;
+}
+.navitem{
+    display: flex;
+    flex-wrap: row wrap;
+    text-transform: capitalize;
+    list-style: none;
+}
+.navitem li{
+    font-weight: 550;
+    padding-right: 10vh;
+    line-height: 10px;
+}
+.navitem li a{
+    text-decoration: none;
+    font-size: 3.2vh;
+    color: #0e0808;
+}
+.navitem li a:hover{
+    color: #fa6e1c;
+}
+button{
+    border: 0.3px solid #878a89;
+    margin-right: 15px;
+    padding: 6px 20px;
+   
+}
+button a{
+    text-decoration: none;
+    color: #020202;
+    font-weight: 550;
+    font-size: 18px;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    background: #ffffff;
+}
+.imag{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/imgg_bg.jpg);  
+}
+.imag h2{
+    padding-top: 20vh;
+    margin-left: 20vh;
+    font-weight: 600;
+    font-size: 6vh;
+    color: #f3611e;
+}
+.imag span{
+    font-weight: 550;
+    font-size: 10vh;
+    color: #0f0e0f;
+}
+.imag p{
+    margin-left: 19vh;
+    padding: 10px;
+    font-size: 3vh;
+    font-style: oblique;
+}
+.imag .btns{
+    margin-left: 20vh;
+    border-radius: 0;
+    
+    background-color: #390942;
+}
+.imag .btns a{
+    color: #ffffff;
+}
+.imag .btns a:hover{
+    color: #c7db0d;
+}
+.imag .btnss{
+    border-radius: 0;
+    background-color: #d6d2d2;
+}
+.imag .btnss a:hover{
+    color: #f05f0b;
+}
+/*-------End Header Section=====-------*/
+/*-------2nd sections css style-------*/
+.section{
+    background-color: #ffffff;
+    width: 100%;
+    height: 60vh;
+}
+.section h2{
+    color: #030303;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.section .card_bd{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.section .card_bd h4{
+    margin-left: 10px;
+    color: #f3860a;
+    text-align: left;
+    font-size: 23px;
+    font-weight: 550;
+}
+.section .card_bd p{
+    padding: 5px;
+    margin-left: 10px;
+    color: #4b4949;
+    font-size: 15px;
+    font-weight: 500; 
+}
+.section .card_bd img{
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e2dede;
+    border-radius: 50%;
+}
+
+/*-------3rd sections css style-------*/
+.sections{
+    background: #ffffff;
+    width: 100%;
+    height: 80vh;
+    
+}
+.sections h2{
+    padding: 13px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+}
+.sections .imggs{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.sections .imggs img{
+    padding: 10px;
+    margin-left: 10px;
+    width: 120vh;
+    height: 62vh;
+}
+.form{
+    padding-top: 20px;
+    width: 75vh;
+    height: 60vh;
+    /*border: 0.2px solid#e2e0e0;*/
+}
+.form h3{
+    text-align: center;
+    color: #ffbd08;
+    font-size: 30px;
+    font-weight: 550;
+    padding: 10px;
+    
+}
+.form input{
+    width: 55vh;
+    padding: 10px;
+    margin-left: 8vh;
+    border: 0.5px solid #f3860a;
+}
+.form button.btn{
+    margin-left: 26vh;
+}
+.form button.btn a{
+    color: #f3860a;
+}
+.form button.btn a:hover{
+    color: #0e0d0d;
+}
+/*==========Footer Section Start================*/
+
+.footer{
+    width: 100%;
+    height: 75vh;
+    background-color: #000;
+    color: #ffffff;
+}
+/*========Copyright section start=========*/
+.copr{
+    width: 100%;
+    height: 15vh;
+    background-color: #c7db0d;
+}
